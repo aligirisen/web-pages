@@ -1,0 +1,57 @@
+.advertisement
+{
+	position: relative;
+	left: 10px;
+	bottom: 930px;
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+}
+html body{
+	height: 100%;
+}
+.logo{
+	position: relative;
+	left:120px;
+	height: 200px;
+
+}
+
+.title{
+	position: relative;
+	height: 200px;
+	left: 600px;
+	bottom: 200px;
+
+}
+.content img{
+	float: left;
+	margin-right: 10px;
+	height: 175px !important;
+	width: 300px !important;
+
+}
+.content{
+	position: relative;
+	bottom: 250px;
+	left: 150px;
+	width: 70%;
+	width: 900px;
+	text-align: justify;
+	
+}
+.head{
+	position: relative;
+	height: 200px;
+	left: 500px;
+	bottom: 200px;
+
+}
+body div:nth-child(5) {
+	width: 100%;
+	position: absolute;
+	bottom: 150px;
+  }
