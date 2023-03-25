@@ -2,7 +2,7 @@
 {
 	position: relative;
 	left: 10px;
-	bottom: 930px;
+	bottom: 970px;
 	width:100px;
 	height:150px; 
 	border-color:black;
@@ -39,7 +39,7 @@ html body{
 	bottom: 250px;
 	left: 150px;
 	width: 70%;
-	width: 900px;
+	width: 800px;
 	text-align: justify;
 	
 }
@@ -53,5 +53,5 @@ html body{
 body div:nth-child(5) {
 	width: 100%;
 	position: absolute;
-	bottom: 150px;
+	bottom: 0;
   }
