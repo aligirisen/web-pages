@@ -1,0 +1,44 @@
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+  padding: 0 100px;
+  width: 54px;
+  height: 54px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ff7f50, #ffd700);
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+}
+.navbar ul {
+  padding: 0 80px;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul a {
+  color: white;
+  margin-right: 30px;
+
+  letter-spacing: 0.9px;
+}
+.navbar ul a:hover{
+  color:blue
+}
+
+.container {
+  padding: 120px 100px;
+  height: 100vh;
+}
