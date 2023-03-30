@@ -39,6 +39,85 @@ a{
 }
 
 .container {
-  padding: 120px 100px;
-  height: 100vh;
+  background: linear-gradient(to right, #ff7f50, #ffd700);
+  color: white;
+  
+  padding: 120px 150px;
+}
+.container .information{
+  padding: 50px 50px;
+  
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  border-color: #333;
+  background-color: #333;
+  margin: 0 100px;
+}
+.container section{
+  margin: 60px 0px;
+  padding: 10px ; 
+  border-style: outset;
+  border-radius: 20px;
+  border-color: cornflowerblue;
+  background-color: gray;
+}
+.container .information .aboutme{
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 350px;
+  margin-right: 50px;
+}
+.container .information .personal{
+  
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-style: double;
+  border-color: gray;
+  box-sizing: border-box;
+}
+.container .experience{
+  position: relative;
+  display: flex;
+  padding: 50px 50px;
+  align-items: stretch;
+  
+  background-color: #333;
+  margin: 0 100px;
+}
+.container .experience .experience1{
+  
+  margin-right: 100px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.container .experience .experience2{
+  display: inline-block;
+}
+.container .experience3{
+  margin-right: 100px;
+  margin-bottom: 0px;
+  display: inline-block;
+  display: flex;
+  padding: 50px 50px;
+  align-items: stretch;
+  
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-color: #333;
+  background-color: #333;
+
+  background-color: #333;
+  margin: 0 100px;
+}
+h3
+{
+  
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-bottom: 1px
+  solid white;
 }
