@@ -1,0 +1,16 @@
+body{
+    padding-left: 50px;
+}
+
+label {
+  display: block;
+  width: 150px;
+}
+div {
+  display: flex;
+  margin-bottom: 15px;
+  
+}
+.button{
+    margin-left: 150px;
+}
