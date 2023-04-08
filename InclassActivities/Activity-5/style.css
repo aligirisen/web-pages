@@ -1,0 +1,19 @@
+body{
+    padding-left: 20px;
+}
+
+label {
+  display: block;
+  width: 100px;
+}
+div {
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+.button{
+    margin-left: 400px;
+}
+input{
+    margin-right: 20px;
+}
