@@ -1,0 +1,17 @@
+.input{
+    text-indent: 5px;
+    outline: none;
+    
+}
+.form{
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+label{
+    display: block;
+    width: 200px;
+}
+input:invalid {
+    border: 2px solid red;
+}

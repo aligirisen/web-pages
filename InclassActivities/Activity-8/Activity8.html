@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="C:\Users\agiri\Downloads\jquery-ui-1.13.2"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="jquery/jquery.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css" />
 
     <link rel="stylesheet" href="Activity8.css" />
-	<script src="Activity8.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+
+    <script src="Activity8.js"></script>
 
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form>
+      <div class="form">
+        <label>What programming language do you know ?</label>
+        <input class="input" id="language" required />
+      </div>
+      <div class="form">
+        <label for="datepicker">What is your birthday?</label>
+        <input class="input" type="text" id="datepicker" />
+      </div>
+      <div class="form">
+        <label>Email Address</label>
+        <input class="input" type="email" placeholder="Enter a valid email add" />
+      </div>
+      <div class="form">
+        <label>Website</label>
+        <input class="input" type="url" />
+      </div>
+      <div class="form">
+        <button type="submit">submit</button>
+      </div>
+    </form>
+  </body>
 </html>
