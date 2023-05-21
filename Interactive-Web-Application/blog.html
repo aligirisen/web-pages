@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css" />
+
+    <script src="jquery/jquery.show-more.js"></script>
+    <script src="jquery/jquery.fadethis.js"></script>
+    <script src="jquery/jquery.zoom.js"></script>
+    <script src="jquery/jquery.zoom.min.js"></script>
+
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,252 +26,142 @@
       rel="stylesheet"
     />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="courses.html">Courses</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <img class="logo" src="img/logo.png" alt="img" />
-      </div>
-
-      <div class="container">
-        <h1>Blog</h1>
-  
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-        <section id="section">
-          <h2>
-            <a
-              href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
-              target="_blank"
-            >
-              What is the DevOps and Why DevOps became all the vogue ?
-            </a>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-            molestias tempora quas. Id velit molestiae obcaecati perferendis
-            nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
-            saepe vero commodi... <a href="#" id="read-more-link">Read More</a>
-          </p>
-        </section>
-      </div>
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-      <img class="footer_logo" src="img/logo.png" alt="img" />
-    
-    <div class="footer_links">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+      <img class="logo" src="img/logo.png" alt="img" />
     </div>
-    <div class="footer_contact">
-      <ul>
-        <li>
-          <p>© All rights reserved</p>
-        </li>
-      </ul>
+
+    <div class="container slide-bottom">
+
+      <h1>Blog</h1>
+
+      <div class="showmore">
+        <h2>
+          <a
+            href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
+            target="_blank"
+          >
+            What is the DevOps and Why DevOps became all the vogue ?
+          </a>
+        </h2>
+        <p >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi...
+        </p>
+      </div>
+      <div class="showmore">
+        <h2>
+          <a
+            href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
+            target="_blank"
+          >
+            What is the DevOps and Why DevOps became all the vogue ?
+          </a>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi...
+        </p>
+      </div>
+      <div class="showmore">
+        <h2>
+          <a
+            href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
+            target="_blank"
+          >
+            What is the DevOps and Why DevOps became all the vogue ?
+          </a>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi... 
+        </p>
+      </div>
+      <div class="showmore">
+        <h2>
+          <a
+            href="https://medium.com/kodcular/devops-nedir-what-is-devops-c390c58ecf68"
+            target="_blank"
+          >
+            What is the DevOps and Why DevOps became all the vogue ?
+          </a>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodiLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+          molestias tempora quas. Id velit molestiae obcaecati perferendis
+          nostrum cumque doloremque et odio ipsam! Nisi dolores aspernatur minus
+          saepe vero commodi...
+        </p>
+      </div>
     </div>
-  </footer>   
-</body>
+
+    <footer class="footer">
+      <img class="footer_logo" src="img/logo.png" alt="img" />
+
+      <div class="footer_links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer_contact">
+        <ul>
+          <li>
+            <p>© All rights reserved</p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css" />
+
+    <script src="jquery/jquery.show-more.js"></script>
+    <script src="jquery/jquery.fadethis.js"></script>
+    <script src="jquery/jquery.zoom.js"></script>
+    <script src="jquery/jquery.zoom.min.js"></script>
+
+
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,26 +39,34 @@
       <img class="logo" src="img/logo.png" alt="img" />
     </div>
 
-    <div class="container">
-      <h4>
-        Email address :
-        <a href="mailto:aliriza.girisen@gmail.com">aliriza.girisen@gmail.com</a>
-      </h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta iusto,
-        amet ex blanditiis impedit voluptate exercitationem, enim neque quos,
-        saepe eaque modi iste nostrum eveniet laboriosam laborum quis soluta.
-        Doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-        architecto sit sunt totam cumque distinctio ipsa necessitatibus repellat
-        ullam officia, quam accusamus temporibus voluptatum odio quod vel
-        tempora sed nesciunt! Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Quam tenetur laboriosam, quia ducimus ut optio
-        expedita rerum, fugit architecto ullam magnam nihil natus minus sint
-        unde veniam laudantium sapiente consectetur. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Delectus quisquam dolor architecto dolore
-        sunt sint ipsa, voluptas consequatur aliquid aperiam eveniet molestias
-        quo neque itaque culpa ipsum corporis impedit quidem.
-      </p>
+    <div class="container slide-bottom">
+      <div class="form">
+        <h2>Contact Us</h2>
+        <form id="myForm">
+          <input
+          class="input"
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+          class="input"
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <textarea
+          class="input"
+            id="message"
+            placeholder="Enter your message..."
+            required
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div id="dialog" title="Success"></div>
     </div>
 
     <footer class="footer">

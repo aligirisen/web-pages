@@ -4,9 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css" />
+
+    <script src="jquery/jquery.show-more.js"></script>
+    <script src="jquery/jquery.fadethis.js"></script>
+    <script src="jquery/jquery.zoom.js"></script>
+    <script src="jquery/jquery.zoom.min.js"></script>
+
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,10 +39,10 @@
       <img class="logo" src="img/logo.png" alt="img" />
     </div>
 
-    <div class="container">
-      <div class="information">
-        <div>
-          <img class="personal" src="img/Cartoonify.png" />
+    <div class="container home slide-bottom">
+      <div class="row">
+        <div class="personal">
+          <img src="img/Cartoonify.png" />
         </div>
         <div class="aboutme">
           <h4>Computer Engineer</h4>
@@ -43,21 +54,25 @@
           </p>
         </div>
       </div>
-      <div class="experience">
-        <h3>What I Do</h3>
-        <div class="experience1">
-          <h2>DevOps Engineer</h2>
-          I've been working as a DevOps Engineer at Microsoft<br />Belgium since
-          September 2021
+      <div class="row">
+        <div class="left">
+          <div class="info">
+            <h2>DevOps Engineer</h2>
+            I've been working as a DevOps Engineer at Microsoft<br />Belgium
+            since September 2021
+          </div>
         </div>
-        <div class="experience2">
-          <h2>Software Engineer</h2>
-          I've been working as a Software Engineer at Google <br />Germany March
-          2020 - September 2021
+        <div class="right">
+          <div class="info">
+            <h2>Software Engineer</h2>
+            I've been working as a Software Engineer at Google <br />Germany
+            March 2020 - September 2021
+          </div>
         </div>
       </div>
-      <div class="experience3">
-        <div class="experience4">
+
+      <div class="row">
+        <div class="info">
           <h2>Trainer</h2>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ad
           mollitia quia tenetur, ut saepe aliquid voluptatem, cupiditate minima,
