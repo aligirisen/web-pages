@@ -9,7 +9,8 @@ $(document).ready(function() {
 	  maxSlides: 1,
 	  pause: 3000, 
 	  pager: true, 
-	  pagerCustom: '#pager' 
+	  pagerCustom: '#pager',
+	  pagerType: 'short'
 	});
   });
   
