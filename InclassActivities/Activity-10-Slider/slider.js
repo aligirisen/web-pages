@@ -1,38 +1,15 @@
 $(document).ready(function() {
-	$('#slider').bxSlider({
-		randomStart: true
+	$("#slider").bxSlider({
+	  auto: true, 
+	  randomStart: true, 
+	  moveSlides: 1, 
+	  slideWidth: 250,
+	  slideMargin: 10,
+	  minSlides: 1, 
+	  maxSlides: 1,
+	  pause: 3000, 
+	  pager: true, 
+	  pagerCustom: '#pager' 
 	});
-});
-$(document).ready(function() {
-	$('#slider').bxSlider({
-		randomStart: true,
-		moveSlides: 1
-	});
-});
-$(document).ready(function() {
-	$('#slider').bxSlider({
-		randomStart: true,
-		moveSlides: 1,
-		minSlides: 1,
-		maxSlides: 1
-	});
-});
-$(document).ready(function() {
-	$('#slider').bxSlider({
-		randomStart: true,
-		moveSlides: 1,
-		minSlides: 1,
-		maxSlides: 1,
-		pause: 3000
-	});
-});
-$(document).ready(function() {
-	$('#slider').bxSlider({
-		randomStart: true,
-		moveSlides: 1,
-		minSlides: 1,
-		maxSlides: 1,
-		pause: 3000,
-		pagerCustom: "#pager"
-	});
-});
+  });
+  
