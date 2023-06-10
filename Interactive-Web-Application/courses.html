@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="jquery/jquery.js"></script>
-    <script src="jquery/jquery-ui.js"></script>
+    <script src="jquery/jquery-ui.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="jquery/jquery-ui.css" />
+
 
     <script src="jquery/jquery.show-more.js"></script>
     <script src="jquery/jquery.fadethis.js"></script>
     <script src="jquery/jquery.zoom.js"></script>
     <script src="jquery/jquery.zoom.min.js"></script>
 
-
     <link rel="stylesheet" href="main.css" />
+
+    <link rel="stylesheet" href="courses.css" />
     <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <script src="courses.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,53 +43,23 @@
       <img class="logo" src="img/logo.png" alt="img" />
     </div>
 
-
-
     <div class="container slide-bottom">
-      <h1>Courses</h1>
+      <h1>Find Your Course!</h1>
 
-      <div class="text" >
-        What do you deserve to learn
-      </div>      
+      <div class="text">What do you deserve to learn <br> </div>
 
+      <input type="text" id="searchInput" placeholder="Search " />
+      <ul id="suggestionList"></ul>
 
-
-
-
-
-
-
-
-
-       <div class="course"> 
-        Advanced Java Course
-      </div>
-      <div class="course">
-        Advanced C Course
-      </div>
-      <div class="course">
-        Advanced Phyton Course
-      </div>
-      <div class="course">
-        Advanced GoLang Course
-      </div>
-      <div class="course">
-        Linux Administration Course from beginner to advanced  
-      </div>
-
+      <h1> try our face-to-face course in following country </h1>
+      <button id="getRandomCountry" onclick="counter()">Guess</button>
+      <p id="country"></p>
       
     </div>
 
-
-
-
-
-
-
-
     <footer class="footer">
-        <img class="footer_logo" src="img/logo.png" alt="img" />
-      
+      <img class="footer_logo" src="img/logo.png" alt="img" />
+
       <div class="footer_links">
         <ul>
           <li><a href="index.html">Home</a></li>
